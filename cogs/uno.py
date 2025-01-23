@@ -6,7 +6,7 @@ import sys
 import os
 import random
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from config import script_dir 
+script_dir = os.path.dirname(os.path.abspath(__file__))
 from .ids import *
 import re
 import asyncio
