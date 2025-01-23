@@ -7,7 +7,7 @@ from datetime import timedelta
 import asyncio
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from config import script_dir 
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 class setups(commands.Cog): # create a class for our cog that inherits from commands.Cog
 
